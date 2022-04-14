@@ -1,9 +1,19 @@
+const ratingCard =  document.getElementById("ratingCard");
+const thankYou =  document.getElementById("thankYou");
+
 const submitButton = document.getElementById("submit_button");
 const choicesButtons = document.getElementsByClassName("choice");
+
 var choiceValue = undefined;
+var userChoiceElement = document.getElementById("userChoice");
 
 submitButton.onclick = function (evt) {
-    console.log(`CLICKED!\nValue: ${choiceValue}`);
+    // Hide the rating elements
+    ratingCard.style.visibility = "hidden";
+    ratingCard.style.position = "absolute";
+    // Show Thank you state
+    userChoiceElement.innerHTML = `You selected ${choiceValue} out of 5`
+    thankYou.style.visibility = "visible";
 }
 
 choicesButtons[0].onclick = function (evt) {
