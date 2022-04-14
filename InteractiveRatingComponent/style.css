@@ -38,6 +38,10 @@ body{
     justify-self: flex-start;
 }
 
+.card .star img {
+    margin-left: 1px;
+}
+
 .card .content h1{
     color: white;
 }
