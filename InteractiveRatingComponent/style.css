@@ -31,7 +31,7 @@ body{
     display: flex;
     justify-content:center;
     align-items: center;
-    background-image: url();
+    background-color:  #959eac51;
     border-radius: 50px;
     margin-top: 15px;
     justify-self: flex-start;
