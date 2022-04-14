@@ -81,7 +81,7 @@ p {
 .choice:focus {
     background-color:hsl(217, 12%, 63%); 
     color: white;
-    transition: background-color 0.1s, color 0.1s;
+    transition: background-color 0.2s, color 0.2s;
 }
 
 .submit {
