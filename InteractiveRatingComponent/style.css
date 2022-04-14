@@ -78,9 +78,10 @@ p {
     color: white;
 }
 
-.choice:active {
-    background-color:hsl(217, 12%, 63%);
-    transition: background-color 0.1s;
+.choice:focus {
+    background-color:hsl(217, 12%, 63%); 
+    color: white;
+    transition: background-color 0.1s, color 0.1s;
 }
 
 .submit {
