@@ -18,6 +18,7 @@ body{
 
 .card {
     background-image: url(img/bg.png);
+    background-position: center;
     width: 310px;
     height: 320px;
     border-radius: 30px;
@@ -35,6 +36,10 @@ body{
     border-radius: 50px;
     margin-top: 15px;
     justify-self: flex-start;
+}
+
+.card .star img {
+    margin-left: 1px;
 }
 
 .card .content h1{
@@ -64,6 +69,7 @@ p {
     border-radius: 100px;
     border: none;
     padding: 10px 15px;
+    transition: background-color 0.5s, color 0.5s;
 }
 
 .choice:hover {
@@ -72,8 +78,10 @@ p {
     color: white;
 }
 
-.choice:active {
-    background-color:hsl(217, 12%, 63%);
+.choice:focus {
+    background-color:hsl(217, 12%, 63%); 
+    color: white;
+    transition: background-color 0.2s, color 0.2s;
 }
 
 .submit {
@@ -91,6 +99,7 @@ p {
    border-radius: 50px;
    font-weight: 700;
    color: white;
+   transition: background-color 0.5s, color 0.5s;
 }
 
 .submit button:hover {
