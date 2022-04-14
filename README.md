@@ -4,7 +4,8 @@ This repository contains some challenges from [FrontendMentor](https://www.front
 
 ## Difficulty
 
-|Difficulty||                         
+|Difficulty||    
+|----------|----------|                         
 |Newbie|⭐|        
 |Junior|⭐⭐|
 |Intermediate|⭐⭐⭐|       
@@ -13,3 +14,5 @@ This repository contains some challenges from [FrontendMentor](https://www.front
 
 ## Finished Projects
 |Challenge Name|Difficulty|Technologies|
+|----------|----------|----------| 
+|Interactive Rating Component|⭐|HTML/CSS/JS|
