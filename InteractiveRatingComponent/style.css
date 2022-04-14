@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+html, body {
+    height: 100%;
+    font-size: 15px;
+}
+
+body{
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+
+.card {
+    background-color: #252d37;
+    width: 310px;
+    height: 320px;
+    border-radius: 30px;
+    display: flex;    
+    flex-wrap: wrap;
+}
+
+.card .star {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color:  hsla(217, 12%, 63%, 0.316);
+    border-radius: 50px;
+    margin-top: 15px;
+    justify-self: flex-start;
+}
+
+.card .content h1{
+    color: white;
+}
+
+.card .content {
+    margin: 0 15px 0 15px;
+    color: white;
+}
+
+p {
+    font-size: 15px;
+    color:hsl(217, 12%, 63%);
+}
+
+.choices {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.choice {
+    background-color: hsl(216, 12%, 54%, 0.3);
+    color: hsl(217, 12%, 63%);
+    font-weight: 700;
+    border-radius: 100px;
+    border: none;
+    padding: 10px 15px;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.choice:active {
+    background-color:hsl(217, 12%, 63%);
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit button {
+   background-color: hsl(25, 97%, 53%);
+   width: 18em;
+   height: 3em;
+   margin-top: 15px;
+   border: none;
+   border-radius: 50px;
+   font-weight: 700;
+   color: white;
+}
+
+.submit button:hover {
+    cursor: pointer;
+    background-color: white; 
+    color: hsl(25, 97%, 53%);
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 10px 0 10px;
+    /* HAeight and Color of Footer */
+    height: 1.5em;
+    background-color: hsl(217, 12%, 63%);
+}
