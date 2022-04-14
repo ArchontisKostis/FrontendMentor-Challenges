@@ -17,7 +17,7 @@ body{
 }
 
 .card {
-    background-color: #252d37;
+    background-image: url(img/bg.png);
     width: 310px;
     height: 320px;
     border-radius: 30px;
