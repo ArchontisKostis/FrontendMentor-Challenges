@@ -31,7 +31,7 @@ body{
     display: flex;
     justify-content:center;
     align-items: center;
-    background-color:  hsla(217, 12%, 63%, 0.316);
+    background-image: url();
     border-radius: 50px;
     margin-top: 15px;
     justify-self: flex-start;
@@ -98,6 +98,9 @@ p {
     background-color: white; 
     color: hsl(25, 97%, 53%);
 }
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
 
 footer{
     display: flex;
