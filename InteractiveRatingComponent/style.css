@@ -108,6 +108,25 @@ p {
     color: hsl(25, 97%, 53%);
 }
 
+.thank-you-state {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.thank-you-state #userChoice {
+    background-color: hsla(216, 12%, 54%, 0.488);
+    color: white;
+}
+
+.thank-you-state p {
+    text-align: center;
+    font-size: 10px;
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
