@@ -80,6 +80,7 @@ p {
 
 .choice:active {
     background-color:hsl(217, 12%, 63%);
+    transition: background-color 0.1s;
 }
 
 .submit {
