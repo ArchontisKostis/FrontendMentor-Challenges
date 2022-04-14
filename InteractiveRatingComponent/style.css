@@ -120,21 +120,28 @@ p {
 .thank-you-state img {
     width: 8em;
     height: auto;
-    margin-top: 1em;
+    margin-bottom: 0.9em;
 }
 
 .thank-you-state #userChoice {
     background-color: hsl(216, 12%, 54%, 0.2);
     border-radius: 50px;
-    color: hsl(25, 97%, 53%);
+    color: #c37436;
     font-size: 12px;
-    padding: 0.8em;
-    margin: 2em;
+    padding: 0.5em 0.8em 0.5em;
+    margin: 1em;
+}
+
+.thank-you-state h1 {
+    color: white;
+    margin: 0;
 }
 
 .thank-you-state p {
     text-align: center;
-    font-size: 10px;
+    font-size: 12px;
+    line-height: 170%;
+    padding: 0 1.5em 0;
 }
 
 .attribution { font-size: 11px; text-align: center; }
