@@ -117,9 +117,19 @@ p {
     flex-direction: column;
 }
 
+.thank-you-state img {
+    width: 8em;
+    height: auto;
+    margin-top: 1em;
+}
+
 .thank-you-state #userChoice {
-    background-color: hsla(216, 12%, 54%, 0.488);
-    color: white;
+    background-color: hsl(216, 12%, 54%, 0.2);
+    border-radius: 50px;
+    color: hsl(25, 97%, 53%);
+    font-size: 12px;
+    padding: 0.8em;
+    margin: 2em;
 }
 
 .thank-you-state p {
