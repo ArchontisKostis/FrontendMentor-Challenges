@@ -68,7 +68,8 @@ main {
     border-radius: 50px;
     position: relative;
     align-self: flex-end;
-    margin-top: 290px;
+    /* margin-top: 290px; */
+    transform: translateY(265%);
     
 }
 
