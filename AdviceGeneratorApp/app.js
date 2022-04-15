@@ -1,6 +1,9 @@
 const newQuoteButton = document.getElementById("new-quote");
+const copyButton = document.getElementById("copy-icon");
 const adviceIdSpan = document.getElementById("advice-id");
 const adviceQuote = document.getElementById("quote");
+
+
 
 function getAdviceFromAPI(adviceIdElement, adviceTextElement) {
     fetch("https://api.adviceslip.com/advice")
@@ -10,7 +13,7 @@ function getAdviceFromAPI(adviceIdElement, adviceTextElement) {
     .then(loadedAdvice => {
         var adviceData = loadedAdvice.slip;
         adviceIdSpan.innerHTML = `ADVICE #${adviceData.id}`;
-        adviceQuote.innerHTML = `"${adviceData.advice}"`;
+        adviceQuote.innerHTML = `"${adviceData.advice}"`
     })
     .catch( err => {
         console.log(err);
@@ -18,8 +21,14 @@ function getAdviceFromAPI(adviceIdElement, adviceTextElement) {
 }
 
 getAdviceFromAPI();
+
 newQuoteButton.onclick = function (evt) {
     getAdviceFromAPI();
+}
+
+copyButton.onclick = function (evt) {
+    navigator.clipboard.writeText(adviceQuote.textContent);
+    alert("Advice Copied!");
 }
 
 
