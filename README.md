@@ -15,4 +15,4 @@ This repository contains some challenges from [FrontendMentor](https://www.front
 ## Finished Projects
 |Challenge Name|Difficulty|Technologies|
 |----------|----------|----------| 
-|Interactive Rating Component|⭐|HTML/CSS/JS|
+|[Interactive Rating Component](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI)|⭐|HTML/CSS/JS|
