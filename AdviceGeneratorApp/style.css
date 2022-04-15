@@ -79,6 +79,11 @@ main {
     transition: box-shadow 0.3s ease-in;
 }
 
+#new-quote:active {
+    background-color: hsl(150, 63%, 55%);
+    box-shadow: 0 0 10px hsl(150, 63%, 55%), 0 0 40px hsl(150, 63%, 55%), 0 0 80px hsl(150, 63%, 55%);
+}
+
 footer{
     display: flex;
     justify-content: center;
