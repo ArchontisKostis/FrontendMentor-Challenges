@@ -32,10 +32,12 @@ main {
     align-items: center;
     flex-direction: column;
     background-color: hsl(217, 19%, 24%);
+    box-shadow: 0 0 10px rgba(32, 32, 32, 0.201), 0 0 40px rgba(32, 32, 32, 0.322), 0 0 80px rgba(32, 32, 32, 0.322);
     border-radius: 15px;
     width: 30em;
     height: 18em;
     position: absolute;
+    padding: 10px 20px 10px;
 }
 
 .card .card-content {
@@ -78,7 +80,7 @@ main {
     position: absolute;
     align-self: flex-start;
     justify-self: flex-start;
-    transform: translate(-130%, -400%);
+    transform: translate(-195%, -430%);
 }
 
 #copy-icon:hover {
