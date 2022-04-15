@@ -6,6 +6,11 @@ html, body {
     padding: 0;
 }
 
+::selection{
+    color: hsl(218, 23%, 16%);
+    background: rgba(255, 255, 255, 0.433);
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -27,10 +32,12 @@ main {
     align-items: center;
     flex-direction: column;
     background-color: hsl(217, 19%, 24%);
+    box-shadow: 0 0 10px rgba(32, 32, 32, 0.201), 0 0 40px rgba(32, 32, 32, 0.322), 0 0 80px rgba(32, 32, 32, 0.322);
     border-radius: 15px;
     width: 30em;
     height: 18em;
     position: absolute;
+    padding: 10px 20px 10px;
 }
 
 .card .card-content {
@@ -48,6 +55,10 @@ main {
     letter-spacing: 0.3em;
 }
 
+.card .card-content h1::selection {
+    color: hsl(150, 100%, 74%);
+}
+
 .card .card-content #quote {
     font-size: 23px;
     text-align: center;
@@ -55,6 +66,33 @@ main {
     margin-top: 0;
     margin-bottom: 1em;
     color: rgba(255, 255, 255, 0.786);
+}
+
+#copy-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.322);
+    position: absolute;
+    align-self: flex-start;
+    justify-self: flex-start;
+    transform: translate(-195%, -430%);
+}
+
+#copy-icon:hover {
+    cursor: pointer;
+    background-color: rgba(32, 32, 32, 0.322);
+    box-shadow: 0 0 10px rgba(32, 32, 32, 0.322), 0 0 40px rgba(32, 32, 32, 0.322), 0 0 80px rgba(32, 32, 32, 0.322);
+}
+
+#copy-icon:active {
+    cursor: pointer;
+    background-color: rgba(32, 32, 32, 0.519);
+    box-shadow: 0 0 10px rgba(32, 32, 32, 0.322), 0 0 40px rgba(32, 32, 32, 0.322), 0 0 80px rgba(32, 32, 32, 0.322);
 }
 
 #new-quote {
@@ -68,9 +106,7 @@ main {
     border-radius: 50px;
     position: relative;
     align-self: flex-end;
-    /* margin-top: 290px; */
-    transform: translateY(265%);
-    
+    transform: translateY(285%);
 }
 
 #new-quote:hover {
@@ -109,4 +145,8 @@ footer{
 
 .attribution a:hover { 
     text-decoration: underline;
+}
+
+.attribution a::selection { 
+    color: hsl(150, 100%, 74%);
 }
