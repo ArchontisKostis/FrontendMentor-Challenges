@@ -62,6 +62,7 @@ main {
     justify-content: space-evenly;
     align-items: center;
     background-color: hsl(150, 100%, 66%);
+    border: none;
     width: 4em;
     height: 4em;
     border-radius: 50px;
