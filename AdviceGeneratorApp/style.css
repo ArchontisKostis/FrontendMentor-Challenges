@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(218, 23%, 16%);
+    font-family: 'Manrope', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 15px;
+    width: 30em;
+    height: 18em;
+    position: absolute;
+}
+
+.card .card-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 80%;
+    width: 80%;
+}
+
+.card .card-content h1{
+    color: hsl(150, 100%, 66%);
+    font-size: 12px;
+    letter-spacing: 0.3em;
+}
+
+.card .card-content #quote {
+    font-size: 23px;
+    text-align: center;
+    font-weight: 800;
+    margin-top: 0;
+    margin-bottom: 1em;
+    color: rgba(255, 255, 255, 0.786);
+}
+
+#new-quote {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: hsl(150, 100%, 66%);
+    width: 4em;
+    height: 4em;
+    border-radius: 50px;
+    position: relative;
+    align-self: flex-end;
+    margin-top: 290px;
+    
+}
+
+#new-quote:hover {
+    cursor: pointer;
+    background: hsl(150, 100%, 66%);
+    box-shadow: 0 0 10px hsl(150, 100%, 66%), 0 0 40px hsl(150, 100%, 66%), 0 0 80px hsl(150, 100%, 66%);
+    transition: box-shadow 0.3s ease-in;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 10px 0 10px;
+    /* Height and Color of Footer */
+    height: 1.5em;
+    background-color: hsl(219, 18%, 31%);
+    color: white;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(150, 100%, 66%); 
+    text-decoration: none;
+}
+
+.attribution a:hover { 
+    text-decoration: underline;
+}
