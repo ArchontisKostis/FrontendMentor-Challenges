@@ -1,42 +1,34 @@
-const ratingCard =  document.getElementById("ratingCard");
-const thankYou =  document.getElementById("thankYou");
+const newQuoteButton = document.getElementById("new-quote");
+const copyButton = document.getElementById("copy-icon");
+const adviceIdSpan = document.getElementById("advice-id");
+const adviceQuote = document.getElementById("quote");
 
-const submitButton = document.getElementById("submit_button");
-const choicesButtons = document.getElementsByClassName("choice");
 
-var choiceValue = undefined;
-var userChoiceElement = document.getElementById("userChoice");
 
-submitButton.onclick = function (evt) {
-    // Hide the rating elements
-    ratingCard.style.visibility = "hidden";
-    ratingCard.style.position = "absolute";
-    // Show Thank you state
-    userChoiceElement.innerHTML = `You selected ${choiceValue} out of 5`
-    thankYou.style.visibility = "visible";
+function getAdviceFromAPI(adviceIdElement, adviceTextElement) {
+    fetch("https://api.adviceslip.com/advice")
+    .then(res => {
+        return res.json();
+    })
+    .then(loadedAdvice => {
+        var adviceData = loadedAdvice.slip;
+        adviceIdSpan.innerHTML = `ADVICE #${adviceData.id}`;
+        adviceQuote.innerHTML = `"${adviceData.advice}"`
+    })
+    .catch( err => {
+        console.log(err);
+    });
 }
 
-choicesButtons[0].onclick = function (evt) {
-    this.focus();
-    choiceValue = 1;
+getAdviceFromAPI();
+
+newQuoteButton.onclick = function (evt) {
+    getAdviceFromAPI();
 }
 
-choicesButtons[1].onclick = function (evt) {
-    this.focus();
-    choiceValue = 2;
+copyButton.onclick = function (evt) {
+    navigator.clipboard.writeText(adviceQuote.textContent);
+    alert("Advice Copied!");
 }
 
-choicesButtons[2].onclick = function (evt) {
-    this.focus();
-    choiceValue = 3;
-}
 
-choicesButtons[3].onclick = function (evt) {
-    this.focus();
-    choiceValue = 4;
-}
-
-choicesButtons[4].onclick = function (evt) {
-    this.focus();
-    choiceValue = 5;
-}
