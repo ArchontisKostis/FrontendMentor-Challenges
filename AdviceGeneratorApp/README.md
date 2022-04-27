@@ -1,8 +1,8 @@
-# Frontend Mentor - Advice generator app solution
+# Frontend Mentor - Advice generator app solution 🎨
 
 This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Table of contents
+## Table of contents 📖
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
@@ -13,31 +13,31 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 
-## Overview
+## Overview 📒
 
-### The challenge
+### The challenge 🌟
 
 Users should be able to:
 
 -  The challenge is to build out this advice generator app using the [Advice Slip API](https://api.adviceslip.com) and get it looking as close to the design as possible.
 
-### Screenshot
+### Screenshot 📷
 
 ![Mockup Image](https://i.postimg.cc/hvYwsCZ2/g3366.png)
-
-### Links
+ 
+### Links 🔗
 
 - Live Site URL: [HERE!](https://frontend-mentor-challenges-beige.vercel.app/)
 
-## My process
+## My process 📋
 
-### Built with
+### Built with 🔧
 
 - Semantic HTML5 markup
 - CSS
 - Flexbox
 
-### Continued Development
+### Continued Development ⚙️
 
 - Make the website have cross-browser support.
 - Completely remake the website using a JavaScript Front-End Framework such as React.
@@ -46,7 +46,7 @@ Users should be able to:
   - Share website feature
   - Download the card in .png format
 
-### Useful Resources
+### Useful Resources 🌐
 
 - [Mobile simulator](https://chrome.google.com/webstore/detail/mobile-simulator-responsi/ckejmhbmlajgoklhgbapkiccekfoccmk) - Responsive Testing Tool for Google Chrome
     * Used to test the responsiveness of the website on different devices
