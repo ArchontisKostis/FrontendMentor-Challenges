@@ -57,7 +57,3 @@ Users should be able to:
 
 - [Vercel](https://vercel.com/)
     * Used for deploying the website
-
-## Author
-[LinkedIn Profile](https://www.linkedin.com/in/archontis-emmanouil-kostis-202384223/)
-[Email](arxontisk02@gmail.com)
