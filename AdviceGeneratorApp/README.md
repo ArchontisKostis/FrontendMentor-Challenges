@@ -10,11 +10,9 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -39,3 +37,27 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS
 - Flexbox
+
+### Continued Development
+
+- Make the website have cross-browser support.
+- Completely remake the website using a JavaScript Front-End Framework such as React.
+- Add additional functionality such as: 
+  - Copy Feature
+  - Share website feature
+  - Download the card in .png format
+
+### Useful Resources
+
+- [Mobile simulator](https://chrome.google.com/webstore/detail/mobile-simulator-responsi/ckejmhbmlajgoklhgbapkiccekfoccmk) - Responsive Testing Tool for Google Chrome
+    * Used to test the responsiveness of the website on different devices
+
+- [CSS Box Shadow Generator](https://html-css-js.com/css/generator/box-shadow/)
+    * Used to make the box shadow
+
+- [Vercel](https://vercel.com/)
+    * Used for deploying the website
+
+## Author
+[LinkedIn Profile](https://www.linkedin.com/in/archontis-emmanouil-kostis-202384223/)
+[Email](arxontisk02@gmail.com)
