@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Mockup Image](https://i.postimg.cc/hvYwsCZ2/g3366.png)]
+![Mockup Image](https://i.postimg.cc/hvYwsCZ2/g3366.png)
 
 ### Links
 
