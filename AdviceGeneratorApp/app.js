@@ -1,9 +1,8 @@
 const newQuoteButton = document.getElementById("new-quote");
-const copyButton = document.getElementById("copy-icon");
 const adviceIdSpan = document.getElementById("advice-id");
 const adviceQuote = document.getElementById("quote");
 
-
+console.log(newQuoteButton);
 
 function getAdviceFromAPI(adviceIdElement, adviceTextElement) {
     fetch("https://api.adviceslip.com/advice")
@@ -24,11 +23,6 @@ getAdviceFromAPI();
 
 newQuoteButton.onclick = function (evt) {
     getAdviceFromAPI();
-}
-
-copyButton.onclick = function (evt) {
-    navigator.clipboard.writeText(adviceQuote.textContent);
-    alert("Advice Copied!");
 }
 
 
