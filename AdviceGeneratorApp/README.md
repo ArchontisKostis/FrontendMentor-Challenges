@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](https://snipboard.io/B0rKcY.jpg)
+![g3366.png](https://i.postimg.cc/hvYwsCZ2/g3366.png)](https://postimg.cc/K3nJv52T)
 
 ### Links
 
